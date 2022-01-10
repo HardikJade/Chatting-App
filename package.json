@@ -1,0 +1,16 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "This is the simple chatting Application Created Using JS",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hardik Jade",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pug": "^3.0.2",
+    "socket.io": "^4.4.1"
+  }
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','san-serif';
+}
+.navbar{
+    /* padding: 10px 20px; */
+    /* position: absolute; */
+    width: 100%;
+    background: red;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_item{
+    padding: 10px 20px;
+    list-style: none;
+}
+.nav_item a{
+    text-decoration: none;
+}
+.chattingArea{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    min-height: calc(100vh - 45px);
+    background: pink;
+}
+.chattingArea .playGround{
+    height: 500px;
+    width: 795px;
+    background: red;
+    margin: 20px;
+}
+.chattingArea .active{
+    height: 500px;
+    width: 395px;
+    background: red;
+    margin: 10px;
+}
+.chattingArea .playGround{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+}
+.playGround .chat{
+    height: 435px;
+    background: orange;
+    border-radius: 10px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.active::-webkit-scrollbar ,
+.chat::-webkit-scrollbar {
+    display: none;
+}
+.playGround .chattingForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background: orange;
+    border-radius: 10px;
+}
+
+.chattingForm .textArea{
+    width: 90%;
+    height: 100%;
+    background: #fff;
+    border-radius: 20px;
+}
+.chattingForm .submit{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 10px;
+}
+.submit svg{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.message{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background: red;
+    padding: 10px 20px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    width:fit-content;
+    width: -moz-fit-content;
+    max-width: 75%;
+}
+.message .sender{
+    font-weight: 900;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.message .stamp{
+    font-weight: 900;
+    font-size: 12px;
+    align-self: flex-end;
+}
+.right{
+    align-self: flex-end;
+}
+.left{
+    align-self: flex-start;
+}
+.user_join{
+    background: red;
+    align-self: center;
+    margin: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    padding:0 10px;
+}
+#main_message{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+    padding: 20px;
+    border-radius: 20px;
+}
+.submit .submit_btn{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    outline: none;
+}
